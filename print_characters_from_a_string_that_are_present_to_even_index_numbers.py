@@ -11,5 +11,8 @@
 # v
 
 # Ask user to input a string
+input_string = str(input("Please type something: "))
+
+print("Orginal String is", input_string)
 # Create a for loop depending on the length of the string input
 # Display the result 
