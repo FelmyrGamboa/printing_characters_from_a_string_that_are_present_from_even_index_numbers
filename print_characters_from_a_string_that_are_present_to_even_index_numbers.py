@@ -13,8 +13,9 @@
 # Ask user to input a string
 input_string = str(input("Please type something: "))
 
-print("Orginal String is", input_string)
+print("\nOrginal String is", input_string)
 print("Printing letters with even index number only")
+
 # Create a for loop depending on the length of the string input
 for i in range(0, len(input_string), 2):
 # Display the result 
